@@ -118,7 +118,7 @@ export default function Post({ post }: PostProps) {
           </TouchableOpacity>
         </Link>
 
-        {/**if im the owner of the post ,show the delete button */}
+        {/**if the user is owner of the post, show the delete button */}
         {post.author._id === currentUser?._id ? (
           <TouchableOpacity onPress={handleDelete}>
             <Ionicons name="trash-outline" size={20} color={COLORS.primary} />
