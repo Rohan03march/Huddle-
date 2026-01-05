@@ -42,7 +42,10 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "26d6ad99-a511-4149-868b-996aa3ea9af2"
+      }
     },
     "runtimeVersion": {
       "policy": "appVersion"
